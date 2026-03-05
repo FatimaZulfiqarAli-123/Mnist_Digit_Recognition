@@ -1,4 +1,4 @@
-# MNIST Digit Recognition with CNN 🖥️
+# Mnist Digit Recognition with CNN 🖥️
 
 Welcome to this **MNIST CNN project**! This project demonstrates how to classify handwritten digits (0–9) using a **Convolutional Neural Network (CNN)** built with **TensorFlow & Keras**.  
 
@@ -47,10 +47,15 @@ Our CNN model includes:
 - **Flatten Layer**
 - **Dense Layer**: 64 neurons, ReLU activation
 - **Output Layer**: 10 neurons, softmax activation 🟢
-
 **Optimizer:** Adam  
 **Loss Function:** Sparse Categorical Crossentropy  
 **Metrics:** Accuracy ✅
+--------
+## 🚀 Results
+
+- **Test Accuracy:** ~99% (after longer training)  
+- **Top-3 Accuracy:** ~99.7%  
+- **Robustness:** Model is robust to noisy images with minor performance drop 🌪️
 
 ------
 
@@ -60,4 +65,5 @@ Install the required libraries via pip:
 
 ```bash
 pip install tensorflow numpy matplotlib seaborn scikit-learn pandas
+
 
